@@ -4,7 +4,7 @@ const { Sequelize } = require("sequelize");
 const sequelize = new Sequelize(
   "school_db",
   "postgres",
-  "ankit",
+  "password",
   {
     host: "localhost",
     port: 5432,
